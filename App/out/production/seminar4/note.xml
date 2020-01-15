@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <nota>
+        <idStudent>2</idStudent>
+        <idTema>1</idTema>
+        <nota1>8.0</nota1>
+        <week>5</week>
+        <profesor>Serban Camelia</profesor>
+        <feedback>ok</feedback>
+    </nota>
+    <nota>
+        <idStudent>2</idStudent>
+        <idTema>2</idTema>
+        <nota1>8.0</nota1>
+        <week>7</week>
+        <profesor>Serban Camelia</profesor>
+        <feedback>ok</feedback>
+    </nota>
+    <nota>
+        <idStudent>1</idStudent>
+        <idTema>2</idTema>
+        <nota1>6.0</nota1>
+        <week>7</week>
+        <profesor>Serban Camelia</profesor>
+        <feedback>rau</feedback>
+    </nota>
+    <nota>
+        <idStudent>2</idStudent>
+        <idTema>3</idTema>
+        <nota1>10.0</nota1>
+        <week>8</week>
+        <profesor>Lascu Roxana</profesor>
+        <feedback>rapoarte</feedback>
+    </nota>
+    <nota>
+        <idStudent>1</idStudent>
+        <idTema>3</idTema>
+        <nota1>10.0</nota1>
+        <week>9</week>
+        <profesor>Lascu Roxana</profesor>
+        <feedback>service probleme</feedback>
+    </nota>
+    <nota>
+        <idStudent>2</idStudent>
+        <idTema>4</idTema>
+        <nota1>10.0</nota1>
+        <week>9</week>
+        <profesor>Lascu Roxana</profesor>
+        <feedback>GUI</feedback>
+    </nota>
+    <nota>
+        <idStudent>3</idStudent>
+        <idTema>5</idTema>
+        <nota1>10.0</nota1>
+        <week>11</week>
+        <profesor>Stefan Berinde</profesor>
+        <feedback>ok</feedback>
+    </nota>
+    <nota>
+        <idStudent>1</idStudent>
+        <idTema>4</idTema>
+        <nota1>5.0</nota1>
+        <week>9</week>
+        <profesor>Serban Camelia</profesor>
+        <feedback>ok</feedback>
+    </nota>
+    <nota>
+        <idStudent>2</idStudent>
+        <idTema>5</idTema>
+        <nota1>10.0</nota1>
+        <week>10</week>
+        <profesor>Lascu Roxana</profesor>
+        <feedback>Rapoarte</feedback>
+    </nota>
+    <nota>
+        <idStudent>2</idStudent>
+        <idTema>6</idTema>
+        <nota1>10.0</nota1>
+        <week>12</week>
+        <profesor>Lascu Roxana</profesor>
+        <feedback>ok</feedback>
+    </nota>
+    <nota>
+        <idStudent>10</idStudent>
+        <idTema>2</idTema>
+        <nota1>10.0</nota1>
+        <week>13</week>
+        <profesor>Pop Andreea</profesor>
+        <feedback>all</feedback>
+    </nota>
+    <nota>
+        <idStudent>8</idStudent>
+        <idTema>1</idTema>
+        <nota1>10.0</nota1>
+        <week>13</week>
+        <profesor>Ciprian Modoi</profesor>
+        <feedback>all</feedback>
+    </nota>
+    <nota>
+        <idStudent>10</idStudent>
+        <idTema>4</idTema>
+        <nota1>6.0</nota1>
+        <week>13</week>
+        <profesor>Pop Andreea</profesor>
+        <feedback>ok
+NOTA A FOST DIMINUATĂ CU 3
+ PUNCTE DATORITĂ ÎNTÂRZIERILOR</feedback>
+    </nota>
+    <nota>
+        <idStudent>8</idStudent>
+        <idTema>2</idTema>
+        <nota1>10.0</nota1>
+        <week>13</week>
+        <profesor>Ciprian Modoi</profesor>
+        <feedback>all</feedback>
+    </nota>
+    <nota>
+        <idStudent>10</idStudent>
+        <idTema>5</idTema>
+        <nota1>4.0</nota1>
+        <week>12</week>
+        <profesor>Pop Andreea</profesor>
+        <feedback>ok
+NOTA A FOST DIMINUATĂ CU 1
+ PUNCTE DATORITĂ ÎNTÂRZIERILOR</feedback>
+    </nota>
+    <nota>
+        <idStudent>8</idStudent>
+        <idTema>3</idTema>
+        <nota1>10.0</nota1>
+        <week>13</week>
+        <profesor>Ciprian Modoi</profesor>
+        <feedback>all</feedback>
+    </nota>
+    <nota>
+        <idStudent>10</idStudent>
+        <idTema>6</idTema>
+        <nota1>10.0</nota1>
+        <week>12</week>
+        <profesor>Pop Andreea</profesor>
+        <feedback>ok</feedback>
+    </nota>
+    <nota>
+        <idStudent>8</idStudent>
+        <idTema>4</idTema>
+        <nota1>10.0</nota1>
+        <week>13</week>
+        <profesor>Ciprian Modoi</profesor>
+        <feedback>all</feedback>
+    </nota>
+    <nota>
+        <idStudent>8</idStudent>
+        <idTema>5</idTema>
+        <nota1>10.0</nota1>
+        <week>13</week>
+        <profesor>Ciprian Modoi</profesor>
+        <feedback>all</feedback>
+    </nota>
+    <nota>
+        <idStudent>8</idStudent>
+        <idTema>6</idTema>
+        <nota1>10.0</nota1>
+        <week>13</week>
+        <profesor>Ciprian Modoi</profesor>
+        <feedback>all</feedback>
+    </nota>
+</class>

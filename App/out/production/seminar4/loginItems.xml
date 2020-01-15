@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <student>
+        <username>mair123</username>
+        <name>mihnea</name>
+        <password>1a1dc91c907325c69271ddf0c944bc72</password>
+    </student>
+    <student>
+        <username>axir123</username>
+        <name>alex</name>
+        <password>1a1dc91c907325c69271ddf0c944bc72</password>
+    </student>
+    <student>
+        <username>mgir123</username>
+        <name>george</name>
+        <password>1a1dc91c907325c69271ddf0c944bc72</password>
+    </student>
+
+    <profesor>
+        <username>camelia</username>
+        <password>1a1dc91c907325c69271ddf0c944bc72</password>
+    </profesor>
+    <profesor>
+        <username>roxana</username>
+        <password>1a1dc91c907325c69271ddf0c944bc72</password>
+    </profesor>
+
+    <admin>
+        <username>admin</username>
+        <password>21232f297a57a5a743894a0e4a801fc3</password>
+    </admin>
+</class>

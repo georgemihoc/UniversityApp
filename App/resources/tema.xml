@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <tema>
+        <descriere>Laborator 4</descriere>
+        <startweek>4</startweek>
+        <deadlineweek>5</deadlineweek>
+    </tema>
+    <tema>
+        <descriere>Laborator 5-6</descriere>
+        <startweek>5</startweek>
+        <deadlineweek>7</deadlineweek>
+    </tema>
+    <tema>
+        <descriere>Laborator 7</descriere>
+        <startweek>7</startweek>
+        <deadlineweek>8</deadlineweek>
+    </tema>
+    <tema>
+        <descriere>Laborator 8</descriere>
+        <startweek>8</startweek>
+        <deadlineweek>10</deadlineweek>
+    </tema>
+    <tema>
+        <descriere>Laborator 9</descriere>
+        <startweek>9</startweek>
+        <deadlineweek>11</deadlineweek>
+    </tema>
+    <tema>
+        <descriere>Laborator 10</descriere>
+        <startweek>11</startweek>
+        <deadlineweek>14</deadlineweek>
+    </tema>
+</class>

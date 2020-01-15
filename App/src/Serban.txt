@@ -1,0 +1,6 @@
+ID-ul temei:5
+Nota:10.0
+Predata in saptamana:11
+Deadline:11
+Feedback:ok
+

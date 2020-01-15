@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="aspectjrt-1.9.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar_files/aspectjrt-1.9.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/slf4j-api-1.7.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-aop-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-beans-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-context-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-core-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-data-commons-2.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-data-jpa-2.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-expression-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-jcl-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-jdbc-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-orm-5.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/spring-tx-5.2.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <student>
+        <nume>George</nume>
+        <grupa>224</grupa>
+        <email>james@example.org</email>
+        <cadru_didactic>Serban Camelia</cadru_didactic>
+    </student>
+    <student>
+        <nume>Alex</nume>
+        <grupa>222</grupa>
+        <email>abc</email>
+        <cadru_didactic>abd</cadru_didactic>
+    </student>
+    <student>
+        <nume>Mihai</nume>
+        <grupa>225</grupa>
+        <email>dfg</email>
+        <cadru_didactic>sdf</cadru_didactic>
+    </student>
+    <student>
+        <nume>b</nume>
+        <grupa>2</grupa>
+        <email>b</email>
+        <cadru_didactic>b</cadru_didactic>
+    </student>
+    <tema>
+        <descriere>abf</descriere>
+        <startweek>6</startweek>
+        <deadlineweek>9</deadlineweek>
+    </tema>
+    <tema>
+        <descriere>hj</descriere>
+        <startweek>6</startweek>
+        <deadlineweek>10</deadlineweek>
+    </tema>
+    <tema>
+        <descriere>a</descriere>
+        <startweek>7</startweek>
+        <deadlineweek>9</deadlineweek>
+    </tema>
+    <nota>
+        <idStudent>2</idStudent>
+        <idTema>1</idTema>
+        <nota>8.0</nota>
+        <week>7</week>
+        <feedback>Acesta nu este repository</feedback>
+    </nota>
+    <nota>
+        <idStudent>1</idStudent>
+        <idTema>1</idTema>
+        <nota>10.0</nota>
+        <week>7</week>
+        <feedback>ok</feedback>
+    </nota>
+</class>

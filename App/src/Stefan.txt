@@ -1,0 +1,28 @@
+ID-ul temei:2
+Nota:10.0
+Predata in saptamana:13
+Deadline:7
+Feedback:all
+
+ID-ul temei:4
+Nota:6.0
+Predata in saptamana:13
+Deadline:10
+Feedback:ok
+NOTA A FOST DIMINUATĂ CU 3
+ PUNCTE DATORITĂ ÎNTÂRZIERILOR
+
+ID-ul temei:5
+Nota:4.0
+Predata in saptamana:12
+Deadline:11
+Feedback:ok
+NOTA A FOST DIMINUATĂ CU 1
+ PUNCTE DATORITĂ ÎNTÂRZIERILOR
+
+ID-ul temei:6
+Nota:10.0
+Predata in saptamana:12
+Deadline:14
+Feedback:ok
+

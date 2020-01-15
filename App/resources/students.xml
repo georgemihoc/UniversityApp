@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <student>
+        <nume>Mihnea</nume>
+        <grupa>224</grupa>
+        <email>mihnea@gmail.com</email>
+        <cadru_didactic>Serban Camelia</cadru_didactic>
+    </student>
+    <student>
+        <nume>George</nume>
+        <grupa>221</grupa>
+        <email>george@gmail.com</email>
+        <cadru_didactic>Lascu Roxana</cadru_didactic>
+    </student>
+    <student>
+        <nume>Serban</nume>
+        <grupa>224</grupa>
+        <email>serban@gmail.com</email>
+        <cadru_didactic>Stefan Berinde</cadru_didactic>
+    </student>
+    <student>
+        <nume>Mihai</nume>
+        <grupa>223</grupa>
+        <email>alex@gmail.com</email>
+        <cadru_didactic>Gabi Mircea</cadru_didactic>
+    </student>
+    <student>
+        <nume>Victor</nume>
+        <grupa>223</grupa>
+        <email>victor@gmail.com</email>
+        <cadru_didactic>Gabi Mircea</cadru_didactic>
+    </student>
+    <student>
+        <nume>Raul</nume>
+        <grupa>227</grupa>
+        <email>raul@gmail.com</email>
+        <cadru_didactic>Boian Rares</cadru_didactic>
+    </student>
+    <student>
+        <nume>Vlad</nume>
+        <grupa>221</grupa>
+        <email>vlad@gmail.com</email>
+        <cadru_didactic>Suciu Mihai</cadru_didactic>
+    </student>
+    <student>
+        <nume>Marius</nume>
+        <grupa>226</grupa>
+        <email>marius@gmail.com</email>
+        <cadru_didactic>Ciprian Modoi</cadru_didactic>
+    </student>
+    <student>
+        <nume>Cristian</nume>
+        <grupa>224</grupa>
+        <email>cristian@gmail.com</email>
+        <cadru_didactic>Suciu Dan</cadru_didactic>
+    </student>
+    <student>
+        <nume>Stefan</nume>
+        <grupa>221</grupa>
+        <email>stefan@gmail.com</email>
+        <cadru_didactic>Pop Andreea</cadru_didactic>
+    </student>
+    <student>
+        <nume>Daniel</nume>
+        <grupa>226</grupa>
+        <email>daniel@gmail.com</email>
+        <cadru_didactic>Czibula Gabriela</cadru_didactic>
+    </student>
+    <student>
+        <nume>Sebastian</nume>
+        <grupa>227</grupa>
+        <email>sebastian@gmail.com</email>
+        <cadru_didactic>Vancea Alexandru</cadru_didactic>
+    </student>
+    <student>
+        <nume>Florin</nume>
+        <grupa>223</grupa>
+        <email>florin@gmail.com</email>
+        <cadru_didactic>Czibula Istvan</cadru_didactic>
+    </student>
+    <student>
+        <nume>Ryan</nume>
+        <grupa>227</grupa>
+        <email>dolor.Quisque.tincidunt@Crasvulputatevelit.com</email>
+        <cadru_didactic>Brody Bond</cadru_didactic>
+    </student>
+    <student>
+        <nume>Christopher</nume>
+        <grupa>222</grupa>
+        <email>dignissim@liberolacus.com</email>
+        <cadru_didactic>Hector Willis</cadru_didactic>
+    </student>
+    <student>
+        <nume>Davis</nume>
+        <grupa>227</grupa>
+        <email>Integer.urna.Vivamus@ullamcorperviverraMaecenas.net</email>
+        <cadru_didactic>Marshall Andrews</cadru_didactic>
+    </student>
+    <student>
+        <nume>Cherokee</nume>
+        <grupa>224</grupa>
+        <email>fringilla@arcuetpede.org</email>
+        <cadru_didactic>Irma Sweet</cadru_didactic>
+    </student>
+    <student>
+        <nume>Hope</nume>
+        <grupa>221</grupa>
+        <email>eget@dolorQuisque.ca</email>
+        <cadru_didactic>Bell Stanley</cadru_didactic>
+    </student>
+    <student>
+        <nume>Lacy</nume>
+        <grupa>223</grupa>
+        <email>scelerisque.dui@nectempusscelerisque.org</email>
+        <cadru_didactic>Hilel Emerson</cadru_didactic>
+    </student>
+    <student>
+        <nume>Russell</nume>
+        <grupa>226</grupa>
+        <email>lorem.ac.risus@mollisPhaselluslibero.net</email>
+        <cadru_didactic>Arden Santos</cadru_didactic>
+    </student>
+    <student>
+        <nume>Yoshi</nume>
+        <grupa>223</grupa>
+        <email>lorem.lorem.luctus@Maecenasornareegestas.co.uk</email>
+        <cadru_didactic>Fredericka Chavez</cadru_didactic>
+    </student>
+    <student>
+        <nume>Heidi</nume>
+        <grupa>227</grupa>
+        <email>odio@nonummyipsumnon.com</email>
+        <cadru_didactic>Blythe Sanford</cadru_didactic>
+    </student>
+    <student>
+        <nume>Brennan</nume>
+        <grupa>221</grupa>
+        <email>cursus.vestibulum@Quisquenonummy.edu</email>
+        <cadru_didactic>Dean Leblanc</cadru_didactic>
+    </student>
+    <student>
+        <nume>Echo</nume>
+        <grupa>225</grupa>
+        <email>erat@Integeraliquam.org</email>
+        <cadru_didactic>Morgan Fernandez</cadru_didactic>
+    </student>
+    <student>
+        <nume>Bevis</nume>
+        <grupa>221</grupa>
+        <email>magna@Nuncpulvinar.net</email>
+        <cadru_didactic>Bert Vasquez</cadru_didactic>
+    </student>
+    <student>
+        <nume>Blake</nume>
+        <grupa>223</grupa>
+        <email>magna.nec@adipiscingnon.co.uk</email>
+        <cadru_didactic>Hall Baldwin</cadru_didactic>
+    </student>
+    <student>
+        <nume>Shay</nume>
+        <grupa>223</grupa>
+        <email>tempor.est.ac@neque.ca</email>
+        <cadru_didactic>Francis Vance</cadru_didactic>
+    </student>
+    <student>
+        <nume>Regina</nume>
+        <grupa>225</grupa>
+        <email>Cras.convallis@ametorciUt.org</email>
+        <cadru_didactic>Walker Stafford</cadru_didactic>
+    </student>
+    <student>
+        <nume>Elliott</nume>
+        <grupa>223</grupa>
+        <email>elit@sit.edu</email>
+        <cadru_didactic>Hector Harrington</cadru_didactic>
+    </student>
+    <student>
+        <nume>Bo</nume>
+        <grupa>227</grupa>
+        <email>tempor.diam.dictum@dolortempus.co.uk</email>
+        <cadru_didactic>Jessamine Sykes</cadru_didactic>
+    </student>
+    <student>
+        <nume>Ivan</nume>
+        <grupa>227</grupa>
+        <email>neque@variusorciin.co.uk</email>
+        <cadru_didactic>George Ramos</cadru_didactic>
+    </student>
+    <student>
+        <nume>Maia</nume>
+        <grupa>224</grupa>
+        <email>et@Proin.net</email>
+        <cadru_didactic>Leroy Gallagher</cadru_didactic>
+    </student>
+    <student>
+        <nume>Ursa</nume>
+        <grupa>227</grupa>
+        <email>turpis.Nulla.aliquet@magnamalesuadavel.edu</email>
+        <cadru_didactic>David Parrish</cadru_didactic>
+    </student>
+    <student>
+        <nume>Melanie</nume>
+        <grupa>223</grupa>
+        <email>pharetra@natoquepenatibus.net</email>
+        <cadru_didactic>Emerson Yang</cadru_didactic>
+    </student>
+    <student>
+        <nume>Theodore</nume>
+        <grupa>222</grupa>
+        <email>Nunc.ac@purusin.org</email>
+        <cadru_didactic>Eliana Booth</cadru_didactic>
+    </student>
+    <student>
+        <nume>Martha</nume>
+        <grupa>224</grupa>
+        <email>ac.ipsum@dapibus.co.uk</email>
+        <cadru_didactic>Rhona Mckinney</cadru_didactic>
+    </student>
+    <student>
+        <nume>Hunter</nume>
+        <grupa>224</grupa>
+        <email>nulla@sapien.org</email>
+        <cadru_didactic>Vivian Harding</cadru_didactic>
+    </student>
+    <student>
+        <nume>Gannon</nume>
+        <grupa>227</grupa>
+        <email>Donec.tempor@nonummyipsum.co.uk</email>
+        <cadru_didactic>Rina Cox</cadru_didactic>
+    </student>
+    <student>
+        <nume>Karleigh</nume>
+        <grupa>221</grupa>
+        <email>semper.rutrum.Fusce@Utnec.org</email>
+        <cadru_didactic>Winter Bray</cadru_didactic>
+    </student>
+    <student>
+        <nume>Mariam</nume>
+        <grupa>227</grupa>
+        <email>adipiscing.fringilla.porttitor@sapien.net</email>
+        <cadru_didactic>Gil Boyle</cadru_didactic>
+    </student>
+    <student>
+        <nume>Carolyn</nume>
+        <grupa>227</grupa>
+        <email>Curae@a.org</email>
+        <cadru_didactic>Mara Huffman</cadru_didactic>
+    </student>
+    <student>
+        <nume>Erich</nume>
+        <grupa>226</grupa>
+        <email>risus.In.mi@neccursusa.ca</email>
+        <cadru_didactic>Nathan Ryan</cadru_didactic>
+    </student>
+    <student>
+        <nume>Bernard</nume>
+        <grupa>221</grupa>
+        <email>urna@CurabiturdictumPhasellus.co.uk</email>
+        <cadru_didactic>Madaline Singleton</cadru_didactic>
+    </student>
+    <student>
+        <nume>Xavier</nume>
+        <grupa>226</grupa>
+        <email>lacus@dictumeuplacerat.org</email>
+        <cadru_didactic>Clinton Good</cadru_didactic>
+    </student>
+    <student>
+        <nume>Dara</nume>
+        <grupa>221</grupa>
+        <email>et.rutrum@Sed.edu</email>
+        <cadru_didactic>Norman Bernard</cadru_didactic>
+    </student>
+    <student>
+        <nume>Hamish</nume>
+        <grupa>226</grupa>
+        <email>Donec@Duisrisus.org</email>
+        <cadru_didactic>Hiroko Emerson</cadru_didactic>
+    </student>
+    <student>
+        <nume>Kenneth</nume>
+        <grupa>222</grupa>
+        <email>Mauris.vestibulum.neque@Duis.co.uk</email>
+        <cadru_didactic>Nehru Sutton</cadru_didactic>
+    </student>
+    <student>
+        <nume>Hilary</nume>
+        <grupa>221</grupa>
+        <email>luctus.Curabitur@luctus.com</email>
+        <cadru_didactic>Flynn Massey</cadru_didactic>
+    </student>
+    <student>
+        <nume>Haley</nume>
+        <grupa>227</grupa>
+        <email>orci.quis@massaMauris.edu</email>
+        <cadru_didactic>Prescott Bowers</cadru_didactic>
+    </student>
+    <student>
+        <nume>Mia</nume>
+        <grupa>226</grupa>
+        <email>nisl@ultricies.edu</email>
+        <cadru_didactic>Damian Chase</cadru_didactic>
+    </student>
+    <student>
+        <nume>Aaron</nume>
+        <grupa>221</grupa>
+        <email>in.lobortis@lacusNullatincidunt.org</email>
+        <cadru_didactic>Willa Mcmahon</cadru_didactic>
+    </student>
+    <student>
+        <nume>Brynne</nume>
+        <grupa>226</grupa>
+        <email>a.sollicitudin.orci@egestas.com</email>
+        <cadru_didactic>Dominic Jefferson</cadru_didactic>
+    </student>
+    <student>
+        <nume>Buckminster</nume>
+        <grupa>227</grupa>
+        <email>vitae.mauris@nulla.com</email>
+        <cadru_didactic>Hunter Hines</cadru_didactic>
+    </student>
+    <student>
+        <nume>Candice</nume>
+        <grupa>226</grupa>
+        <email>arcu.Sed.et@egestas.ca</email>
+        <cadru_didactic>Melanie Sutton</cadru_didactic>
+    </student>
+    <student>
+        <nume>Guinevere</nume>
+        <grupa>226</grupa>
+        <email>sit@sapiengravidanon.org</email>
+        <cadru_didactic>Wang Stewart</cadru_didactic>
+    </student>
+    <student>
+        <nume>Ulysses</nume>
+        <grupa>221</grupa>
+        <email>ornare@maurisInteger.co.uk</email>
+        <cadru_didactic>Kirsten Foreman</cadru_didactic>
+    </student>
+    <student>
+        <nume>Fuller</nume>
+        <grupa>223</grupa>
+        <email>a@Fuscediamnunc.com</email>
+        <cadru_didactic>Leslie Bowman</cadru_didactic>
+    </student>
+    <student>
+        <nume>Chancellor</nume>
+        <grupa>222</grupa>
+        <email>commodo.at@facilisis.co.uk</email>
+        <cadru_didactic>Alexandra Matthews</cadru_didactic>
+    </student>
+    <student>
+        <nume>Gray</nume>
+        <grupa>227</grupa>
+        <email>ornare@ultricesVivamus.co.uk</email>
+        <cadru_didactic>Brock Lindsay</cadru_didactic>
+    </student>
+    <student>
+        <nume>Lana</nume>
+        <grupa>224</grupa>
+        <email>mattis.Cras@SedmolestieSed.co.uk</email>
+        <cadru_didactic>Scott Hickman</cadru_didactic>
+    </student>
+    <student>
+        <nume>Basia</nume>
+        <grupa>227</grupa>
+        <email>nunc.In.at@hendreritneque.net</email>
+        <cadru_didactic>Carter Pacheco</cadru_didactic>
+    </student>
+    <student>
+        <nume>Devin</nume>
+        <grupa>224</grupa>
+        <email>egestas.hendrerit@utaliquam.net</email>
+        <cadru_didactic>Keaton Moss</cadru_didactic>
+    </student>
+    <student>
+        <nume>Ramona</nume>
+        <grupa>225</grupa>
+        <email>ornare@mi.co.uk</email>
+        <cadru_didactic>Gloria Baxter</cadru_didactic>
+    </student>
+    <student>
+        <nume>Damian</nume>
+        <grupa>225</grupa>
+        <email>eleifend.non.dapibus@atiaculisquis.net</email>
+        <cadru_didactic>Ulysses Leon</cadru_didactic>
+    </student>
+    <student>
+        <nume>Ryan</nume>
+        <grupa>224</grupa>
+        <email>tincidunt.adipiscing.Mauris@vitaealiquameros.org</email>
+        <cadru_didactic>Jasper Yates</cadru_didactic>
+    </student>
+    <student>
+        <nume>Carolyn</nume>
+        <grupa>223</grupa>
+        <email>velit.dui.semper@Mauris.co.uk</email>
+        <cadru_didactic>Beverly Strickland</cadru_didactic>
+    </student>
+    <student>
+        <nume>Ariana</nume>
+        <grupa>221</grupa>
+        <email>arcu@tinciduntdui.net</email>
+        <cadru_didactic>Emerson Atkinson</cadru_didactic>
+    </student>
+    <student>
+        <nume>Aimee</nume>
+        <grupa>227</grupa>
+        <email>Curabitur@ornarelectus.ca</email>
+        <cadru_didactic>Dawn Ray</cadru_didactic>
+    </student>
+    <student>
+        <nume>Alfonso</nume>
+        <grupa>227</grupa>
+        <email>turpis.egestas.Fusce@egestasascelerisque.com</email>
+        <cadru_didactic>Wilma Bowman</cadru_didactic>
+    </student>
+    <student>
+        <nume>Imani</nume>
+        <grupa>223</grupa>
+        <email>Donec@tempor.org</email>
+        <cadru_didactic>Omar Woodard</cadru_didactic>
+    </student>
+    <student>
+        <nume>Helen</nume>
+        <grupa>226</grupa>
+        <email>aliquam@Proin.co.uk</email>
+        <cadru_didactic>Cullen Juarez</cadru_didactic>
+    </student>
+    <student>
+        <nume>Summer</nume>
+        <grupa>222</grupa>
+        <email>Lorem@Duisgravida.co.uk</email>
+        <cadru_didactic>Driscoll Mcfadden</cadru_didactic>
+    </student>
+    <student>
+        <nume>Nero</nume>
+        <grupa>224</grupa>
+        <email>nec.enim@nec.ca</email>
+        <cadru_didactic>Oleg Scott</cadru_didactic>
+    </student>
+    <student>
+        <nume>Uta</nume>
+        <grupa>221</grupa>
+        <email>orci.quis@felispurus.ca</email>
+        <cadru_didactic>Nolan Welch</cadru_didactic>
+    </student>
+    <student>
+        <nume>Beatrice</nume>
+        <grupa>221</grupa>
+        <email>ligula.Aenean.gravida@enimNunc.edu</email>
+        <cadru_didactic>Castor Burgess</cadru_didactic>
+    </student>
+    <student>
+        <nume>Kaden</nume>
+        <grupa>227</grupa>
+        <email>diam.lorem@sociisnatoquepenatibus.ca</email>
+        <cadru_didactic>Travis Nieves</cadru_didactic>
+    </student>
+    <student>
+        <nume>Kennedy</nume>
+        <grupa>225</grupa>
+        <email>diam.Proin@blanditviverraDonec.edu</email>
+        <cadru_didactic>Samantha Cross</cadru_didactic>
+    </student>
+    <student>
+        <nume>Eden</nume>
+        <grupa>224</grupa>
+        <email>ac.arcu.Nunc@CuraePhasellusornare.net</email>
+        <cadru_didactic>Natalie Rosa</cadru_didactic>
+    </student>
+    <student>
+        <nume>Keiko</nume>
+        <grupa>226</grupa>
+        <email>elementum.at.egestas@laoreetlibero.ca</email>
+        <cadru_didactic>Kenneth Reyes</cadru_didactic>
+    </student>
+    <student>
+        <nume>Gloria</nume>
+        <grupa>223</grupa>
+        <email>rutrum.magna@porttitor.edu</email>
+        <cadru_didactic>Craig Smith</cadru_didactic>
+    </student>
+    <student>
+        <nume>Zeph</nume>
+        <grupa>224</grupa>
+        <email>ridiculus@mauris.net</email>
+        <cadru_didactic>Aladdin Kaufman</cadru_didactic>
+    </student>
+    <student>
+        <nume>Emery</nume>
+        <grupa>222</grupa>
+        <email>pede.Cum.sociis@Aeneanegestas.org</email>
+        <cadru_didactic>Nigel Cameron</cadru_didactic>
+    </student>
+    <student>
+        <nume>Quincy</nume>
+        <grupa>223</grupa>
+        <email>dis.parturient@tinciduntnibh.ca</email>
+        <cadru_didactic>Janna Wooten</cadru_didactic>
+    </student>
+    <student>
+        <nume>Tatyana</nume>
+        <grupa>227</grupa>
+        <email>tellus.justo@risusaultricies.net</email>
+        <cadru_didactic>Rebecca Hodge</cadru_didactic>
+    </student>
+    <student>
+        <nume>Eagan</nume>
+        <grupa>223</grupa>
+        <email>ut.aliquam@cursusnon.org</email>
+        <cadru_didactic>Idona Lynn</cadru_didactic>
+    </student>
+    <student>
+        <nume>Zenia</nume>
+        <grupa>222</grupa>
+        <email>egestas@vitaenibhDonec.com</email>
+        <cadru_didactic>Sandra Simon</cadru_didactic>
+    </student>
+    <student>
+        <nume>David</nume>
+        <grupa>221</grupa>
+        <email>non@risusInmi.org</email>
+        <cadru_didactic>Nerea Baird</cadru_didactic>
+    </student>
+    <student>
+        <nume>Porter</nume>
+        <grupa>227</grupa>
+        <email>ultrices.Vivamus.rhoncus@enim.edu</email>
+        <cadru_didactic>Brenna Hebert</cadru_didactic>
+    </student>
+    <student>
+        <nume>Kaden</nume>
+        <grupa>221</grupa>
+        <email>non@ut.ca</email>
+        <cadru_didactic>Rashad Hobbs</cadru_didactic>
+    </student>
+    <student>
+        <nume>Brenden</nume>
+        <grupa>226</grupa>
+        <email>mauris@ipsum.com</email>
+        <cadru_didactic>Karina Mcintyre</cadru_didactic>
+    </student>
+    <student>
+        <nume>Tasha</nume>
+        <grupa>224</grupa>
+        <email>Vivamus.molestie@faucibusut.ca</email>
+        <cadru_didactic>Blossom Rivers</cadru_didactic>
+    </student>
+    <student>
+        <nume>Hasad</nume>
+        <grupa>227</grupa>
+        <email>ante.ipsum.primis@faucibus.net</email>
+        <cadru_didactic>May Vazquez</cadru_didactic>
+    </student>
+    <student>
+        <nume>Donovan</nume>
+        <grupa>226</grupa>
+        <email>consequat@temporloremeget.edu</email>
+        <cadru_didactic>Bianca Clayton</cadru_didactic>
+    </student>
+    <student>
+        <nume>Abigail</nume>
+        <grupa>226</grupa>
+        <email>Donec.fringilla@commodoatlibero.net</email>
+        <cadru_didactic>Fleur Collins</cadru_didactic>
+    </student>
+    <student>
+        <nume>Calista</nume>
+        <grupa>222</grupa>
+        <email>condimentum@dictumProineget.edu</email>
+        <cadru_didactic>Baker Blackburn</cadru_didactic>
+    </student>
+    <student>
+        <nume>Jermaine</nume>
+        <grupa>221</grupa>
+        <email>id.magna@Maecenasmi.edu</email>
+        <cadru_didactic>Olga Navarro</cadru_didactic>
+    </student>
+    <student>
+        <nume>Camille</nume>
+        <grupa>225</grupa>
+        <email>nonummy.Fusce@quamafelis.co.uk</email>
+        <cadru_didactic>Bree Collins</cadru_didactic>
+    </student>
+    <student>
+        <nume>Carl</nume>
+        <grupa>226</grupa>
+        <email>ipsum.primis.in@sedhendrerit.org</email>
+        <cadru_didactic>Ryan Bernard</cadru_didactic>
+    </student>
+</class>

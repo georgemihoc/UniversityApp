@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:10.0
+Predata in saptamana:13
+Deadline:5
+Feedback:all
+
+ID-ul temei:2
+Nota:10.0
+Predata in saptamana:13
+Deadline:7
+Feedback:all
+
+ID-ul temei:3
+Nota:10.0
+Predata in saptamana:13
+Deadline:8
+Feedback:all
+
+ID-ul temei:4
+Nota:10.0
+Predata in saptamana:13
+Deadline:10
+Feedback:all
+
+ID-ul temei:5
+Nota:10.0
+Predata in saptamana:13
+Deadline:11
+Feedback:all
+
+ID-ul temei:6
+Nota:10.0
+Predata in saptamana:13
+Deadline:14
+Feedback:all
+
