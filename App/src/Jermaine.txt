@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:7.0
+Predata in saptamana:4
+Deadline:5
+Feedback:Quisque
+
+ID-ul temei:2
+Nota:10.0
+Predata in saptamana:6
+Deadline:7
+Feedback:Nullam enim. Sed
+
+ID-ul temei:3
+Nota:8.0
+Predata in saptamana:7
+Deadline:8
+Feedback:ullamcorper, nisl
+
+ID-ul temei:4
+Nota:8.0
+Predata in saptamana:10
+Deadline:10
+Feedback:taciti
+
+ID-ul temei:5
+Nota:6.0
+Predata in saptamana:11
+Deadline:11
+Feedback:nulla.
+
+ID-ul temei:6
+Nota:9.0
+Predata in saptamana:13
+Deadline:14
+Feedback:ac
+

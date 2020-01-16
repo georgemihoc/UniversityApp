@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:7.0
+Predata in saptamana:4
+Deadline:5
+Feedback:vitae semper
+
+ID-ul temei:2
+Nota:8.0
+Predata in saptamana:5
+Deadline:7
+Feedback:Proin eget odio.
+
+ID-ul temei:3
+Nota:7.0
+Predata in saptamana:8
+Deadline:8
+Feedback:iaculis quis, pede.
+
+ID-ul temei:4
+Nota:5.0
+Predata in saptamana:10
+Deadline:10
+Feedback:consectetuer
+
+ID-ul temei:5
+Nota:6.0
+Predata in saptamana:10
+Deadline:11
+Feedback:a,
+
+ID-ul temei:6
+Nota:8.0
+Predata in saptamana:13
+Deadline:14
+Feedback:et libero.
+

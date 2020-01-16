@@ -1,36 +1,36 @@
 ID-ul temei:1
-Nota:8.0
-Predata in saptamana:5
+Nota:5.0
+Predata in saptamana:4
 Deadline:5
-Feedback:ok
+Feedback:adipiscing non,
 
 ID-ul temei:2
-Nota:8.0
-Predata in saptamana:7
+Nota:7.0
+Predata in saptamana:6
 Deadline:7
-Feedback:ok
+Feedback:euismod enim.
 
 ID-ul temei:3
-Nota:10.0
+Nota:8.0
 Predata in saptamana:8
 Deadline:8
-Feedback:rapoarte
+Feedback:facilisis eget, ipsum.
 
 ID-ul temei:4
 Nota:10.0
-Predata in saptamana:9
+Predata in saptamana:8
 Deadline:10
-Feedback:GUI
+Feedback:tempor lorem, eget
 
 ID-ul temei:5
-Nota:10.0
-Predata in saptamana:10
+Nota:8.0
+Predata in saptamana:11
 Deadline:11
-Feedback:Rapoarte
+Feedback:nibh.
 
 ID-ul temei:6
-Nota:10.0
-Predata in saptamana:12
+Nota:8.0
+Predata in saptamana:14
 Deadline:14
-Feedback:ok
+Feedback:gravida molestie
 

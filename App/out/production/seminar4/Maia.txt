@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:8.0
+Predata in saptamana:5
+Deadline:5
+Feedback:varius et,
+
+ID-ul temei:2
+Nota:9.0
+Predata in saptamana:7
+Deadline:7
+Feedback:hymenaeos.
+
+ID-ul temei:3
+Nota:8.0
+Predata in saptamana:7
+Deadline:8
+Feedback:est. Nunc
+
+ID-ul temei:4
+Nota:9.0
+Predata in saptamana:9
+Deadline:10
+Feedback:pede.
+
+ID-ul temei:5
+Nota:9.0
+Predata in saptamana:9
+Deadline:11
+Feedback:auctor non, feugiat
+
+ID-ul temei:6
+Nota:10.0
+Predata in saptamana:14
+Deadline:14
+Feedback:elementum, lorem
+

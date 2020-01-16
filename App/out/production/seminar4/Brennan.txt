@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:8.0
+Predata in saptamana:5
+Deadline:5
+Feedback:molestie orci
+
+ID-ul temei:2
+Nota:5.0
+Predata in saptamana:5
+Deadline:7
+Feedback:nunc nulla
+
+ID-ul temei:3
+Nota:6.0
+Predata in saptamana:7
+Deadline:8
+Feedback:lorem,
+
+ID-ul temei:4
+Nota:10.0
+Predata in saptamana:9
+Deadline:10
+Feedback:Ut
+
+ID-ul temei:5
+Nota:9.0
+Predata in saptamana:11
+Deadline:11
+Feedback:ipsum primis
+
+ID-ul temei:6
+Nota:9.0
+Predata in saptamana:12
+Deadline:14
+Feedback:ac metus
+

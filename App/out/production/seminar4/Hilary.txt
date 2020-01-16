@@ -1,0 +1,24 @@
+ID-ul temei:1
+Nota:7.0
+Predata in saptamana:5
+Deadline:5
+Feedback:Sed
+
+ID-ul temei:3
+Nota:9.0
+Predata in saptamana:7
+Deadline:8
+Feedback:dolor
+
+ID-ul temei:4
+Nota:9.0
+Predata in saptamana:10
+Deadline:10
+Feedback:sollicitudin a, malesuada
+
+ID-ul temei:5
+Nota:9.0
+Predata in saptamana:10
+Deadline:11
+Feedback:magna
+

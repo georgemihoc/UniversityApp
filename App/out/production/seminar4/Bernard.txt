@@ -1,0 +1,24 @@
+ID-ul temei:1
+Nota:10.0
+Predata in saptamana:5
+Deadline:5
+Feedback:consectetuer rhoncus.
+
+ID-ul temei:3
+Nota:8.0
+Predata in saptamana:8
+Deadline:8
+Feedback:mi lacinia
+
+ID-ul temei:4
+Nota:8.0
+Predata in saptamana:9
+Deadline:10
+Feedback:risus. Duis a
+
+ID-ul temei:5
+Nota:10.0
+Predata in saptamana:9
+Deadline:11
+Feedback:pellentesque. Sed dictum.
+

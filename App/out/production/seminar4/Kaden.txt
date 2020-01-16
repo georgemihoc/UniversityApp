@@ -1,0 +1,66 @@
+ID-ul temei:1
+Nota:10.0
+Predata in saptamana:5
+Deadline:5
+Feedback:posuere at, velit.
+
+ID-ul temei:2
+Nota:10.0
+Predata in saptamana:7
+Deadline:7
+Feedback:ac
+
+ID-ul temei:3
+Nota:5.0
+Predata in saptamana:7
+Deadline:8
+Feedback:nostra, per
+
+ID-ul temei:4
+Nota:7.0
+Predata in saptamana:10
+Deadline:10
+Feedback:pede, malesuada vel,
+
+ID-ul temei:5
+Nota:10.0
+Predata in saptamana:11
+Deadline:11
+Feedback:id
+
+ID-ul temei:6
+Nota:5.0
+Predata in saptamana:14
+Deadline:14
+Feedback:magna
+
+ID-ul temei:1
+Nota:7.0
+Predata in saptamana:5
+Deadline:5
+Feedback:erat semper rutrum.
+
+ID-ul temei:2
+Nota:10.0
+Predata in saptamana:7
+Deadline:7
+Feedback:Cras pellentesque. Sed
+
+ID-ul temei:3
+Nota:5.0
+Predata in saptamana:8
+Deadline:8
+Feedback:nascetur ridiculus mus.
+
+ID-ul temei:4
+Nota:5.0
+Predata in saptamana:8
+Deadline:10
+Feedback:id, libero.
+
+ID-ul temei:6
+Nota:6.0
+Predata in saptamana:11
+Deadline:14
+Feedback:mauris
+

@@ -1,0 +1,24 @@
+ID-ul temei:1
+Nota:5.0
+Predata in saptamana:4
+Deadline:5
+Feedback:tincidunt dui
+
+ID-ul temei:3
+Nota:10.0
+Predata in saptamana:8
+Deadline:8
+Feedback:Fusce diam nunc,
+
+ID-ul temei:4
+Nota:5.0
+Predata in saptamana:8
+Deadline:10
+Feedback:risus odio,
+
+ID-ul temei:5
+Nota:6.0
+Predata in saptamana:11
+Deadline:11
+Feedback:ullamcorper. Duis
+

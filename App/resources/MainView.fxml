@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainAnchorPane" prefHeight="700.0" prefWidth="1000.0"  xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="service.MainViewController">
+<AnchorPane fx:id="mainAnchorPane" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="service.MainViewController">
     <children>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="998.0">
             <children>
@@ -66,12 +66,12 @@
             <Separator fx:id="separator2" layoutX="281.0" layoutY="680.0" orientation="VERTICAL" prefHeight="110.0" prefWidth="6.0" />
             <Separator fx:id="separator3" layoutX="441.0" layoutY="680.0" orientation="VERTICAL" prefHeight="110.0" prefWidth="0.0" AnchorPane.leftAnchor="441.0" />
             <Separator fx:id="separator4" layoutX="600.0" layoutY="680.0" orientation="VERTICAL" prefHeight="110.0" prefWidth="6.0" />
-            <TableView fx:id="tableViewNote" layoutX="4.0" layoutY="423.0" prefHeight="245.0">
+            <TableView fx:id="tableViewNote" layoutX="4.0" layoutY="420.0" prefHeight="245.0" prefWidth="420.0">
                <columns>
                   <TableColumn fx:id="tableColumnStudent" prefWidth="110.0" text="Student" />
                   <TableColumn fx:id="tableColumnTema" prefWidth="109.0" text="Tema" />
-                  <TableColumn fx:id="tableColumnNota" prefWidth="100.0" text="Nota" />
-                  <TableColumn fx:id="tableColumnSaptamana" prefWidth="106.0" text="Saptamana" />
+                  <TableColumn fx:id="tableColumnNota" prefWidth="89.0" text="Nota" />
+                  <TableColumn fx:id="tableColumnSaptamana" prefWidth="94.0" text="Saptamana" />
                </columns>
             </TableView>
             <Label fx:id="titluNote" layoutX="4.0" layoutY="387.0" text="Note">

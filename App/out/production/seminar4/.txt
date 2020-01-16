@@ -1,0 +1,12 @@
+ID-ul temei:1
+Nota:6.0
+Predata in saptamana:7
+Deadline:5
+Feedback:sagittis felis. Donec
+
+ID-ul temei:1
+Nota:5.0
+Predata in saptamana:12
+Deadline:5
+Feedback:sit amet
+

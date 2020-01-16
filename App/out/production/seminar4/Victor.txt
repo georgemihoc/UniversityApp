@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:9.0
+Predata in saptamana:4
+Deadline:5
+Feedback:Nullam lobortis quam
+
+ID-ul temei:2
+Nota:6.0
+Predata in saptamana:7
+Deadline:7
+Feedback:quis,
+
+ID-ul temei:3
+Nota:5.0
+Predata in saptamana:7
+Deadline:8
+Feedback:a
+
+ID-ul temei:4
+Nota:9.0
+Predata in saptamana:10
+Deadline:10
+Feedback:ullamcorper. Duis
+
+ID-ul temei:5
+Nota:7.0
+Predata in saptamana:10
+Deadline:11
+Feedback:montes, nascetur
+
+ID-ul temei:6
+Nota:6.0
+Predata in saptamana:12
+Deadline:14
+Feedback:magnis
+

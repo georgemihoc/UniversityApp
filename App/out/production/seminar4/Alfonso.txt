@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:6.0
+Predata in saptamana:4
+Deadline:5
+Feedback:hendrerit.
+
+ID-ul temei:2
+Nota:6.0
+Predata in saptamana:5
+Deadline:7
+Feedback:augue eu
+
+ID-ul temei:3
+Nota:9.0
+Predata in saptamana:8
+Deadline:8
+Feedback:felis.
+
+ID-ul temei:4
+Nota:7.0
+Predata in saptamana:10
+Deadline:10
+Feedback:erat
+
+ID-ul temei:5
+Nota:6.0
+Predata in saptamana:11
+Deadline:11
+Feedback:rhoncus id,
+
+ID-ul temei:6
+Nota:7.0
+Predata in saptamana:13
+Deadline:14
+Feedback:nunc sed
+

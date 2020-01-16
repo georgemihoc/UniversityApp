@@ -1,0 +1,24 @@
+ID-ul temei:1
+Nota:6.0
+Predata in saptamana:4
+Deadline:5
+Feedback:Aliquam ornare,
+
+ID-ul temei:3
+Nota:9.0
+Predata in saptamana:7
+Deadline:8
+Feedback:urna. Nunc
+
+ID-ul temei:4
+Nota:6.0
+Predata in saptamana:10
+Deadline:10
+Feedback:non, hendrerit
+
+ID-ul temei:5
+Nota:6.0
+Predata in saptamana:10
+Deadline:11
+Feedback:mattis semper,
+

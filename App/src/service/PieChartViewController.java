@@ -44,7 +44,7 @@ public class PieChartViewController implements Observer<ChangeEvent> {
     public void initModel1(int raport){
         this.raport = raport;
         XYChart.Series dataSeries1 = new XYChart.Series();
-        dataSeries1.setName("Studenti");
+        dataSeries1.setName("Numar studenti / fiecare medie");
 
         Iterable<Nota> note = ServiceNota.findAllNota();
         Iterable<Student> students = Service.findAllStudents();

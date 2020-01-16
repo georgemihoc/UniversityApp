@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:6.0
+Predata in saptamana:5
+Deadline:5
+Feedback:in
+
+ID-ul temei:2
+Nota:6.0
+Predata in saptamana:5
+Deadline:7
+Feedback:ante dictum cursus.
+
+ID-ul temei:3
+Nota:5.0
+Predata in saptamana:7
+Deadline:8
+Feedback:sem mollis
+
+ID-ul temei:4
+Nota:8.0
+Predata in saptamana:8
+Deadline:10
+Feedback:erat volutpat.
+
+ID-ul temei:5
+Nota:8.0
+Predata in saptamana:9
+Deadline:11
+Feedback:sem, consequat nec,
+
+ID-ul temei:6
+Nota:5.0
+Predata in saptamana:11
+Deadline:14
+Feedback:id enim. Curabitur
+

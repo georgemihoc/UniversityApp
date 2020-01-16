@@ -373,6 +373,7 @@ public class Service implements Observable<ChangeEvent> {
         Iterable<Tema> teme = Service.findAllTema();
         List<Raport1> medie = new ArrayList<>();
         int nrSaptamani=0;
+        int nr=0;
         for (Tema t:
                 teme) {
             nrSaptamani += (t.getDeadlineWeek()-t.getStartWeek());
@@ -391,6 +392,20 @@ public class Service implements Observable<ChangeEvent> {
                 medie.add(new Raport1(s.getNume(), suma));
                 contentStream.showText("Student: " + s.getNume() + "     Medie: " + suma);
                 contentStream.newLine();
+                nr++;
+                if(nr==50){
+                    contentStream.endText();
+                    contentStream.close();
+                    nr = 0;
+                    page = new PDPage();
+                    document.addPage(page);
+                    contentStream = new PDPageContentStream(document, page,true,true);
+                    contentStream.beginText();
+                    contentStream.setFont(PDType1Font.TIMES_ROMAN, 12);
+                    contentStream.setLeading(14.5f);
+                    contentStream.newLineAtOffset(25, 750);
+
+                }
             }
         }
 
@@ -496,6 +511,7 @@ public class Service implements Observable<ChangeEvent> {
         Iterable<Tema> teme = Service.findAllTema();
         List<Raport1> raport4 = new ArrayList<>();
         int nrSaptamani=0;
+        int nr = 0;
         for (Tema t:
                 teme) {
             nrSaptamani += (t.getDeadlineWeek()-t.getStartWeek());
@@ -521,6 +537,20 @@ public class Service implements Observable<ChangeEvent> {
                 raport4.add(new Raport1(s.getNume(),suma));
                 contentStream.showText(s.getNume());
                 contentStream.newLine();
+                nr++;
+                if(nr==50){
+                    contentStream.endText();
+                    contentStream.close();
+                    nr = 0;
+                    page = new PDPage();
+                    document.addPage(page);
+                    contentStream = new PDPageContentStream(document, page,true,true);
+                    contentStream.beginText();
+                    contentStream.setFont(PDType1Font.TIMES_ROMAN, 12);
+                    contentStream.setLeading(14.5f);
+                    contentStream.newLineAtOffset(25, 750);
+
+                }
             }
         }
 

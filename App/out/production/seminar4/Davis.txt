@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:10.0
+Predata in saptamana:5
+Deadline:5
+Feedback:sit amet
+
+ID-ul temei:2
+Nota:5.0
+Predata in saptamana:7
+Deadline:7
+Feedback:Morbi
+
+ID-ul temei:3
+Nota:10.0
+Predata in saptamana:8
+Deadline:8
+Feedback:nec,
+
+ID-ul temei:4
+Nota:7.0
+Predata in saptamana:8
+Deadline:10
+Feedback:Vestibulum
+
+ID-ul temei:5
+Nota:8.0
+Predata in saptamana:11
+Deadline:11
+Feedback:dictum. Proin eget
+
+ID-ul temei:6
+Nota:9.0
+Predata in saptamana:14
+Deadline:14
+Feedback:pretium aliquet, metus
+

@@ -1,0 +1,30 @@
+ID-ul temei:1
+Nota:9.0
+Predata in saptamana:4
+Deadline:5
+Feedback:Nulla
+
+ID-ul temei:2
+Nota:8.0
+Predata in saptamana:7
+Deadline:7
+Feedback:tincidunt. Donec vitae
+
+ID-ul temei:3
+Nota:8.0
+Predata in saptamana:8
+Deadline:8
+Feedback:sollicitudin orci sem
+
+ID-ul temei:4
+Nota:8.0
+Predata in saptamana:8
+Deadline:10
+Feedback:ut nisi a
+
+ID-ul temei:6
+Nota:8.0
+Predata in saptamana:12
+Deadline:14
+Feedback:in lobortis tellus
+

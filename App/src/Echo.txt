@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:6.0
+Predata in saptamana:4
+Deadline:5
+Feedback:odio. Phasellus at
+
+ID-ul temei:2
+Nota:9.0
+Predata in saptamana:6
+Deadline:7
+Feedback:mauris. Morbi
+
+ID-ul temei:3
+Nota:10.0
+Predata in saptamana:8
+Deadline:8
+Feedback:nisl.
+
+ID-ul temei:4
+Nota:9.0
+Predata in saptamana:8
+Deadline:10
+Feedback:et, rutrum
+
+ID-ul temei:5
+Nota:6.0
+Predata in saptamana:11
+Deadline:11
+Feedback:sit amet ornare
+
+ID-ul temei:6
+Nota:9.0
+Predata in saptamana:12
+Deadline:14
+Feedback:at,
+

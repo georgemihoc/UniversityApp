@@ -1,0 +1,24 @@
+ID-ul temei:1
+Nota:5.0
+Predata in saptamana:5
+Deadline:5
+Feedback:eu,
+
+ID-ul temei:3
+Nota:6.0
+Predata in saptamana:7
+Deadline:8
+Feedback:Donec porttitor tellus
+
+ID-ul temei:4
+Nota:8.0
+Predata in saptamana:8
+Deadline:10
+Feedback:auctor odio
+
+ID-ul temei:5
+Nota:5.0
+Predata in saptamana:10
+Deadline:11
+Feedback:Fusce feugiat.
+

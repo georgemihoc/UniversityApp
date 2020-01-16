@@ -1,0 +1,36 @@
+ID-ul temei:1
+Nota:9.0
+Predata in saptamana:4
+Deadline:5
+Feedback:fringilla. Donec feugiat
+
+ID-ul temei:2
+Nota:6.0
+Predata in saptamana:6
+Deadline:7
+Feedback:tellus
+
+ID-ul temei:3
+Nota:5.0
+Predata in saptamana:7
+Deadline:8
+Feedback:leo. Vivamus
+
+ID-ul temei:4
+Nota:10.0
+Predata in saptamana:8
+Deadline:10
+Feedback:semper, dui lectus
+
+ID-ul temei:5
+Nota:10.0
+Predata in saptamana:10
+Deadline:11
+Feedback:Nam interdum enim
+
+ID-ul temei:6
+Nota:6.0
+Predata in saptamana:13
+Deadline:14
+Feedback:Curae; Phasellus ornare.
+
