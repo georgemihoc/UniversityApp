@@ -34,3 +34,9 @@ Predata in saptamana:14
 Deadline:14
 Feedback:gravida molestie
 
+ID-ul temei:7
+Nota:10.0
+Predata in saptamana:14
+Deadline:14
+Feedback:ok
+

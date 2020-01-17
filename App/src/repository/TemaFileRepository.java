@@ -132,33 +132,33 @@ public class TemaFileRepository extends InMemoryRepository<Long, Tema> {
 
     @Override
     public Tema save(Tema entity) throws ValidationException {
-        ReadDatabase pd = new ReadDatabase();
+//        ReadDatabase pd = new ReadDatabase();
         Tema s = super.save(entity);
         if(s==null) {
             rewriteFileXML();
-            pd.emptyTable("teme");
-            writeDatabase();
+//            pd.emptyTable("teme");
+//            writeDatabase();
         }
         return s;
     }
 
     @Override
     public Tema delete(Long id) {
-        ReadDatabase pd = new ReadDatabase();
+//        ReadDatabase pd = new ReadDatabase();
         Tema s =super.delete(id);
         rewriteFileXML();
-        pd.emptyTable("teme");
-        writeDatabase();
+//        pd.emptyTable("teme");
+//        writeDatabase();
         return s;
     }
 
     @Override
     public Tema update(Tema entity) {
-        ReadDatabase pd = new ReadDatabase();
+//        ReadDatabase pd = new ReadDatabase();
         Tema s=  super.update(entity);
         rewriteFileXML();
-        pd.emptyTable("teme");
-        writeDatabase();
+//        pd.emptyTable("teme");
+//        writeDatabase();
         return s;
     }
 

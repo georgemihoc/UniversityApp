@@ -75,7 +75,7 @@ public class EditTemaController {
             Tema s = this.service.addTema(t.getDescriere(),t.getStartWeek(),t.getDeadlineWeek());
             if (s==null)
                 dialogStage.close();
-            MessageAlert.showMessage(null, Alert.AlertType.INFORMATION,"Slavare mesaj","Mesajul a fost salvat");
+            MessageAlert.showMessage(null, Alert.AlertType.INFORMATION,"Adaugare tema","Tema a fost salvat");
         } catch (ValidationException e) {
             MessageAlert.showErrorMessage(null,e.getMessage(), mainAnchorPane);
         }

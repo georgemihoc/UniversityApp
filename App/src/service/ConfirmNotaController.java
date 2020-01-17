@@ -11,6 +11,8 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import validators.*;
 
+import java.time.LocalDateTime;
+
 public class ConfirmNotaController {
 
     public AnchorPane mainAnchorPane;
@@ -111,7 +113,7 @@ public class ConfirmNotaController {
             String feedback = textAreaFeedback.getText();
 //            String feedback = this.feedback;
             Nota nota = serviceNota.addNota(idStudent,idTema,nota1,currentWeek,feedback);
-           if (nota!= null)
+            if (nota!= null)
                MessageAlert.showMessage(null, Alert.AlertType.INFORMATION, "Add", "Nota a fost adaugata cu succes!");
         }catch (Exception e){
             MessageAlert.showErrorMessage(null, e.getMessage(), mainAnchorPane);

@@ -21,7 +21,9 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -31,16 +33,18 @@ public class Service implements Observable<ChangeEvent> {
     private Validator validatorStudent;
     private static TemaFileRepository repositoryTema;
     private Validator validatorTema;
-    private NotaFileRepository repositoryNota;
+    private static NotaFileRepository repositoryNota;
     private Validator validatorNota;
 
 
     public Service(Validator validatorStudent, StudentFileRepository repositoryStudent,
-                   Validator validatorTema, TemaFileRepository repositoryTema) {
+                   Validator validatorTema, TemaFileRepository repositoryTema, NotaFileRepository repository2, Validator validator2) {
         this.validatorStudent = validatorStudent;
         this.repositoryStudent = repositoryStudent;
         this.validatorTema = validatorTema;
         this.repositoryTema = repositoryTema;
+        this.repositoryNota = repository2;
+        this.validatorNota = validator2;
     }
     public Iterable<Student> findPage(Pageable pageable)
     {
@@ -111,12 +115,6 @@ public class Service implements Observable<ChangeEvent> {
      * postconditii-
      */
     public Tema addTema(String descriere, int currentWeek, int deadlineWeek) {
-        for (Student s:
-                Service.findAllStudents()) {
-            SendEmail sendEmail = new SendEmail("T","root", s.getNume(), "Adaugare tema", " A fost adaugata o noua tema : " +
-                    " " + descriere);
-            sendEmail.start();
-        }
         AnUniversitar an = new AnUniversitar();
         int startWeek;
         List<String> lista = null;
@@ -151,28 +149,59 @@ public class Service implements Observable<ChangeEvent> {
         } else {
             startWeek = currentWeek;
         }
+        try {
+            Tema t = new Tema(descriere, startWeek, deadlineWeek);
+            t.setId((long) repositoryTema.findID());
+            repositoryTema.save(t);
+            notifyObservers(new ChangeEvent(ChangeEventType.ADD, t));
 
-        Tema t = new Tema(descriere, startWeek, deadlineWeek);
-        t.setId((long) repositoryTema.findID());
-        repositoryTema.save(t);
-        notifyObservers(new ChangeEvent(ChangeEventType.ADD,t));
+//            for (Student s :
+//                    Service.findAllStudents()) {
+//                SendEmail sendEmail = new SendEmail("T", "root", s.getNume(), "Adaugare tema", " A fost adaugata o noua tema : " +
+//                        " " + descriere);
+//                sendEmail.start();
+//            }
+            String Bcc = "";
+            int nr =0;
+            for (Student s:
+                    Service.findAllStudents()) {
+                if(nr!=0) {
+                    Bcc += s.getNume();
+                    Bcc += ',';
+                }
+                nr =1;
+            }
+            SendEmail sendEmail = new SendEmail("T","root", findStudent(1L).getNume(), "Add tema", " A fost adaugata tema " +
+                    " " + descriere , Bcc);
+            sendEmail.start();
+            return t;
+        }
+        catch (Exception ignore){}
         //rewriteFileXML();
-        return t;
+        throw new ValidationException("Tema invalida");
     }
     public Tema deleteTema(long id){
+        Tema task=repositoryTema.delete(id);
+        String Bcc = "";
+        int nr =0;
         for (Student s:
                 Service.findAllStudents()) {
-            SendEmail sendEmail = new SendEmail("T","root", s.getNume(), "Delete tema", " A fost stearsa tema " +
-                    " " + Service.findTemaStatic(id).getDescriere() );
-            sendEmail.start();
+            if(nr!=0) {
+                Bcc += s.getNume();
+                Bcc += ',';
+            }
+            nr =1;
         }
-//        for(Nota n : ServiceNota.findAllNota())
-//        {
-//            if(n.getIdTema()==id){
-//                ServiceNota.deleteNotaStatic(n.getIdStudent(),n.getIdTema());
-//            }
-//        }
-        Tema task=repositoryTema.delete(id);
+        SendEmail sendEmail = new SendEmail("T","root", findStudent(1L).getNume(), "Delete tema", " A fost stearsa tema " +
+                " " + task.getDescriere() , Bcc);
+        sendEmail.start();
+        List<Nota> list = new CopyOnWriteArrayList<Nota>((Collection<? extends Nota>) findAllNota());
+        for(Nota n: list)
+        {
+            if(n.getIdTema().equals(id))
+                deleteNota(n.getIdStudent(),n.getIdTema());
+        }
+
         if(task==null)
             System.out.println("Nu exista acest id");
         else {
@@ -181,6 +210,13 @@ public class Service implements Observable<ChangeEvent> {
         }
         return null;
     }
+
+    private Nota deleteNota(Long idStudent, Long idTema) {
+        Nota nota=repositoryNota.delete(new Pair(idStudent,idTema));
+        notifyObservers(new ChangeEvent(ChangeEventType.DELETE, nota));
+        return nota;
+    }
+
     /**
      * Functie de update a unei teme
      * input- id, descriere, currentWeek, deadlineWeek
@@ -189,12 +225,25 @@ public class Service implements Observable<ChangeEvent> {
      * postconditii-
      */
     public Tema updateTema(long id, String descriere, int currentWeek, int deadlineWeek ){
+//        for (Student s:
+//                Service.findAllStudents()) {
+//            SendEmail sendEmail = new SendEmail("T","root", s.getNume(), "Modificare tema", " A fost modificata tema " +
+//                    " " + Service.findTemaStatic(id).getDescriere() );
+//            sendEmail.start();
+//        }
+        String Bcc = "";
+        int nr =0;
         for (Student s:
                 Service.findAllStudents()) {
-            SendEmail sendEmail = new SendEmail("T","root", s.getNume(), "Modificare tema", " A fost modificata tema " +
-                    " " + Service.findTemaStatic(id).getDescriere() );
-            sendEmail.start();
+            if(nr!=0) {
+                Bcc += s.getNume();
+                Bcc += ',';
+            }
+            nr =1;
         }
+        SendEmail sendEmail = new SendEmail("T","root", findStudent(1L).getNume(), "Update tema", " A fost modificata tema " +
+                " " + Service.findTemaStatic(id).getDescriere() , Bcc);
+        sendEmail.start();
         Tema oldTask=repositoryTema.findOne(id);
         AnUniversitar an = new AnUniversitar();
         int startWeek;
@@ -603,6 +652,9 @@ public class Service implements Observable<ChangeEvent> {
      */
     public static Iterable<Tema> findAllTema(){
         return repositoryTema.findAll();
+    }
+    public static Iterable<Nota> findAllNota(){
+        return repositoryNota.findAll();
     }
 
     private List<Observer<ChangeEvent>> observers=new ArrayList<>();

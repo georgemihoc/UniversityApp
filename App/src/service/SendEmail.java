@@ -13,13 +13,15 @@ public class SendEmail extends Thread
     private String recipient;
     private String subject;
     private String message;
+    private String Bcc;
 
-    public SendEmail(String name,String sender,String recipient, String subject, String message) {
+    public SendEmail(String name,String sender,String recipient, String subject, String message, String Bcc) {
         threadName = name;
         this.sender = sender;
         this.recipient = recipient;
         this.subject = subject;
         this.message = message;
+        this.Bcc = Bcc;
         System.out.println("Creating " +  threadName );
     }
 
@@ -31,6 +33,7 @@ public class SendEmail extends Thread
         try {
 
             InternetAddress[] distributionList = InternetAddress.parse(recipient,false);
+
             Properties props = new Properties();
             props.put("mail.smtp.host", "localhost");
             props.put("mail.smtp.port", "25");
@@ -41,9 +44,16 @@ public class SendEmail extends Thread
             msg.setContent(message, "text/html; charset=utf-8");
             msg.setFrom(new InternetAddress(sender));
             msg.setRecipients(Message.RecipientType.TO, distributionList);
+            InternetAddress[] myBccList;
+            if(Bcc!=null) {
+                myBccList = InternetAddress.parse(Bcc);
+                msg.setRecipients(Message.RecipientType.BCC, myBccList);
+            }
             msg.setSubject(subject);
             msg.setSentDate(new Date());
             Transport.send(msg);
+
+//            t.interrupt();
 
         } catch (Exception ex) {
             ex.printStackTrace();

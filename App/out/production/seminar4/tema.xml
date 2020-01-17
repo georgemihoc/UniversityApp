@@ -30,4 +30,9 @@
         <startweek>11</startweek>
         <deadlineweek>14</deadlineweek>
     </tema>
+    <tema>
+        <descriere>a</descriere>
+        <startweek>12</startweek>
+        <deadlineweek>14</deadlineweek>
+    </tema>
 </class>

@@ -62,7 +62,7 @@ public class MainApp extends Application {
         Validator validator2 = new ValidatorNota();
         NotaFileRepository repository2 = new NotaFileRepository(validator2,fileNote);
 
-        this.service = new Service(validator,repository,validator1,repository1);
+        this.service = new Service(validator,repository,validator1,repository1,repository2,validator2);
         this.serviceNota = new ServiceNota(repository2,validator2);
 
         service.fileDelete();

@@ -1,13 +1,14 @@
 .table-row-cell:selected {
-    -fx-background-color: #1a6ee4;
+    /*-fx-background-color: #1a6ee4;*/
+    -fx-background-color: red;
     /*-fx-accent: #1a6ee4;*/
     /*-fx-focus-color: -fx-accent;*/
     /*-fx-base: #111;*/
     /*-fx-control-inner-background: derive(-fx-base,50%);*/
     /*-fx-control-inner-background-alt: derive(-fx-control-inner-background, 30%);*/
 }
-.table-row-cell:selected .text {
-    -fx-fill: white ;
+/*.table-row-cell:selected .text {*/
+/*    -fx-fill: white ;*/
 
-}
+/*}*/
 

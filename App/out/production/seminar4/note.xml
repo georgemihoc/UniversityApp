@@ -113,6 +113,14 @@
         <feedback>gravida molestie</feedback>
     </nota>
     <nota>
+        <idStudent>2</idStudent>
+        <idTema>7</idTema>
+        <nota1>10.0</nota1>
+        <week>14</week>
+        <profesor>Lascu Roxana</profesor>
+        <feedback>ok</feedback>
+    </nota>
+    <nota>
         <idStudent>69</idStudent>
         <idTema>1</idTema>
         <nota1>6.0</nota1>

@@ -211,6 +211,7 @@ public class MainViewController implements Observer<ChangeEvent>  {
             tableViewNote.setVisible(false);
             titluNote.setVisible(false);
             titluTeme.setVisible(false);
+//            tableView.setPrefSize(800,253);
         }
         if(!(user.equals("admin")  || user.equals("profesor")))
         {
@@ -487,13 +488,17 @@ public class MainViewController implements Observer<ChangeEvent>  {
         initModelTeme();
         initModelNote();
         suggestStudent();
+        initComboBox();
     }
 
     private void getNumberOfPages() {
         Iterable<Student> st = service.findAllStudents();
         double nr = st.spliterator().getExactSizeIfKnown() / 9.0;
-//                System.out.println(nr);
-        if(studentList.size() / 9 == nr)
+        int nr2 = (int) (st.spliterator().getExactSizeIfKnown() / 9);
+        System.out.println(nr);
+        System.out.println(nr2);
+//        System.out.println(studentList.size()/9);
+        if(nr2 == nr)
             pagination.setPageCount((int) (st.spliterator().getExactSizeIfKnown() / 9));
         else
             pagination.setPageCount((int) (st.spliterator().getExactSizeIfKnown() / 9+1));
@@ -601,6 +606,7 @@ public class MainViewController implements Observer<ChangeEvent>  {
             //dialogStage.initOwner(primaryStage);
             Scene scene = new Scene(root);
             dialogStage.setScene(scene);
+            dialogStage.setResizable(false);
 
             RaportTableViewController raportTableViewController = loader.getController();
             raportTableViewController.setService(service,serviceNota, raport);

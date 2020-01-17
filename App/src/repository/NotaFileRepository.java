@@ -20,6 +20,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
+import java.time.LocalDateTime;
 
 public class NotaFileRepository extends InMemoryRepository<Pair, Nota> {
 
@@ -149,13 +150,17 @@ public class NotaFileRepository extends InMemoryRepository<Pair, Nota> {
 
     @Override
     public Nota save(Nota entity) throws ValidationException {
+
         ReadDatabase pd = new ReadDatabase();
+
         Nota s = super.save(entity);
+
         if(s==null) {
             rewriteFileXML();
-            pd.emptyTable("note");
-            writeDatabase();
+//            pd.emptyTable("note");
+//            writeDatabase();
         }
+
         return entity;
     }
 
@@ -164,8 +169,8 @@ public class NotaFileRepository extends InMemoryRepository<Pair, Nota> {
         ReadDatabase pd = new ReadDatabase();
         Nota s =super.delete(pair);
         rewriteFileXML();
-        pd.emptyTable("note");
-        writeDatabase();
+//        pd.emptyTable("note");
+//        writeDatabase();
         return s;
     }
 

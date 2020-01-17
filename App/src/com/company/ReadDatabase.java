@@ -16,7 +16,7 @@ public class ReadDatabase {
     private final String password = "admin";
 
     public ReadDatabase() {
-        //connectToPostgres();
+//        connectToPostgres();
     }
 
     public void connectToPostgres(){

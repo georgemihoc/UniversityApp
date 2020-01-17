@@ -183,6 +183,7 @@ public class LoginViewController {
 //        dialogStage.initOwner(primaryStage);
         Scene scene = new Scene(root);
         dialogStage.setScene(scene);
+        dialogStage.setResizable(false);
 
         MainViewController mainViewController = loader.getController();
         mainViewController.setStudentService(service,serviceNota,user,dialogStage,primaryStage);

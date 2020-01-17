@@ -9,6 +9,7 @@ import utils.observer.Observer;
 import validators.*;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,11 +39,13 @@ public class ServiceNota implements Observable<ChangeEvent> {
 //        int currentWeek =Integer.parseInt(new SimpleDateFormat("w").format(new java.util.Date()))-40+1;
         int currentWeek = AnUniversitar.getCurrentWeek();
         int deadlineWeek=currentWeek;
+
         for (Student s:Service.findAllStudents()) {
             if(s.getId()== idStudent){
                 cadruDidactic= s.getCadruDidactic();
             }
         }
+
         if(cadruDidactic.equals(""))
             throw new ValidationException("Student inexistent");
         boolean ok = false;
@@ -73,9 +76,10 @@ public class ServiceNota implements Observable<ChangeEvent> {
             Service.studentFile(n,gradeWeek,deadlineWeek,feedback);
 
             Nota task =repositoryNota.save(n);
+
             cadruDidactic = cadruDidactic.replaceAll("\\s+","");
             SendEmail sendEmail = new SendEmail("T",cadruDidactic, Service.findStudentStatic(idStudent).getNume(), "Add nota", " A fost adaugata nota " +
-                    " " + nota + " la tema " + Service.findTemaStatic(idTema).getDescriere());
+                    " " + nota + " la tema " + Service.findTemaStatic(idTema).getDescriere(),null);
             sendEmail.start();
             notifyObservers(new ChangeEvent(ChangeEventType.ADDNOTA,task));
             return task;
