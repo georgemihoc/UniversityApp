@@ -1,6 +1,8 @@
 # UniversityApp
 Java Application to store students, assignments and grades.
 
+--User-switchable Dark Mode--
+
 Login window with 3 types of accounts ( admin, teacher, student)
 <img width="566" alt="Screenshot 2020-01-22 at 20 09 51" src="https://user-images.githubusercontent.com/45356920/72921475-fa59f200-3d53-11ea-9036-ce8b9b713712.png">
 
